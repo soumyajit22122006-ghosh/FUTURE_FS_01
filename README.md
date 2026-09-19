@@ -1,4 +1,4 @@
-# Personal Portfolio — Soumyajit Ghosh
+# Portfolio — Soumyajit Ghosh
 
 A modern, responsive, and professional personal portfolio website built to showcase my skills, experience, projects, education, and resume.
 
