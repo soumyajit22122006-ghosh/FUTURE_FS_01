@@ -2,6 +2,11 @@
 
 A modern, responsive, and professional personal portfolio website built to showcase my skills, experience, projects, education, and resume.
 
+##  Live link of the Portfolio
+
+https://soumyajit-ghosh-portfolio.onrender.com
+
+
 ##  About
 
 I am a **Computer Science & Engineering (AI & ML) student** passionate about software development, full-stack web development, problem solving, and artificial intelligence and Machine learning.
