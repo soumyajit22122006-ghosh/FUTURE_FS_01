@@ -1,0 +1,366 @@
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+
+    .portfolio-navbar {
+        padding: 15px 0;
+    }
+
+
+    .navbar-collapse {
+        margin-top: 15px;
+
+        padding: 15px;
+
+        background: #0d0d0d;
+
+        border: 1px solid #252525;
+
+        border-radius: 10px;
+    }
+
+
+    .navbar-nav {
+        gap: 3px;
+    }
+
+
+    .nav-link {
+        padding: 10px 8px !important;
+    }
+
+
+    /* HERO */
+
+    .hero-section {
+        text-align: center;
+
+        padding-top: 140px;
+    }
+
+
+    .hero-content {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+
+    .hero-description {
+        margin-left: auto;
+
+        margin-right: auto;
+    }
+
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+
+    .hero-image-wrapper {
+        margin-top: 20px;
+    }
+
+
+    /* SKILLS */
+
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /* PROJECT */
+
+    .project-card {
+        grid-template-columns: 1fr;
+    }
+
+
+    .project-image-wrapper {
+        min-height: 350px;
+    }
+
+
+    /* CONTACT */
+
+    .contact-info {
+        max-width: 100%;
+    }
+
+
+    /* RESUME */
+
+    .resume-frame {
+        height: 700px;
+    }
+
+}
+
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+    .section {
+        padding: 80px 0;
+    }
+
+
+    /* HERO */
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+
+    .hero-image {
+        width: 320px;
+
+        height: 400px;
+    }
+
+
+    .hero-image-glow {
+        width: 250px;
+
+        height: 250px;
+    }
+
+
+    /* SECTION HEADING */
+
+    .section-heading {
+        margin-bottom: 40px;
+    }
+
+
+    .section-heading > h2 {
+        font-size: 38px;
+    }
+
+
+    /* SKILLS */
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 12px;
+    }
+
+
+    .skill-card {
+        min-height: 100px;
+    }
+
+
+    /* EXPERIENCE */
+
+    .experience-card {
+        flex-direction: column;
+    }
+
+
+    .experience-top {
+        flex-direction: column;
+
+        gap: 5px;
+    }
+
+
+    /* PROJECT */
+
+    .project-content {
+        padding: 35px 25px;
+    }
+
+
+    .project-content h3 {
+        font-size: 34px;
+    }
+
+
+    /* EDUCATION */
+
+    .education-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* CONTACT */
+
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* RESUME */
+
+    .resume-frame {
+        height: 600px;
+    }
+
+
+    /* FOOTER */
+
+    .footer-content {
+        flex-direction: column;
+
+        text-align: center;
+    }
+
+}
+
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 480px) {
+
+    .portfolio-navbar {
+        padding: 13px 0;
+    }
+
+
+    .navbar-brand {
+        font-size: 22px;
+    }
+
+
+    /* HERO */
+
+    .hero-section {
+        padding-top: 120px;
+    }
+
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+
+    .hero-buttons {
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+
+    .hero-image {
+        width: 280px;
+
+        height: 350px;
+    }
+
+
+    /* SECTION */
+
+    .section-heading > h2 {
+        font-size: 32px;
+    }
+
+
+    /* SKILLS */
+
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .skill-card {
+        min-height: 95px;
+    }
+
+
+    .skill-card i {
+        font-size: 23px;
+    }
+
+
+    /* EXPERIENCE */
+
+    .experience-card {
+        padding: 22px;
+    }
+
+
+    .experience-content h4 {
+        font-size: 18px;
+    }
+
+
+    /* PROJECT */
+
+    .project-image-wrapper {
+        min-height: 250px;
+    }
+
+
+    .project-content {
+        padding: 28px 20px;
+    }
+
+
+    .project-buttons {
+        flex-direction: column;
+    }
+
+
+    .project-buttons .btn {
+        width: 100%;
+    }
+
+
+    /* CONTACT */
+
+    .contact-item {
+        padding: 13px;
+    }
+
+
+    .contact-item strong {
+        font-size: 12px;
+    }
+
+
+    /* RESUME */
+
+    .resume-wrapper {
+        padding: 10px;
+    }
+
+
+    .resume-frame {
+        height: 500px;
+    }
+
+
+    .resume-buttons {
+        flex-direction: column;
+    }
+
+
+    .resume-buttons .btn {
+        width: 100%;
+    }
+
+}
